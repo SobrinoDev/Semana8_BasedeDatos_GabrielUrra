@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7380E17C-1684-7FC1-39E2-9BF0FF2F67E9" name="ciudad">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>C2991011-2F46-2602-5E81-02C24988E66F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ciudad" id="8686E1EA-AE47-3CDA-56B6-754DBF3CEDDF">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>7E2CDCBB-6DED-9E47-AD3E-E9A39FD36449</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8D7BDDC9-A045-9ACD-249D-4D3C9BC54C0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_ciudad" id="D9EDFDB7-046A-0E3F-E6CE-7BFE95B1A3F5">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>C533E8EE-0F0A-310B-46AF-0CA7C5C9A7C7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0FC963D0-8173-0D23-0352-CBD3577EBE02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_pais" id="2AE173BD-F1FE-A8DD-1013-8D4D574A94B5">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>892D9593-8558-DFFA-F395-6544C76DE8B3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8D7BDDC9-A045-9ACD-249D-4D3C9BC54C0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93C9BC26-A084-A899-DE7D-FDA689F7C77B" referredColumn="E89561F6-4B44-3189-D394-05D6B2E3909B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FF07321-D0CD-3FEE-AA62-FAFBDD17C5CC" name="ciudad_pk">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>D3343568-1977-5A7C-A607-B992087AAE6B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8686E1EA-AE47-3CDA-56B6-754DBF3CEDDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6E0D9D2-7393-89FF-1826-E787055FA91B" name="ciudad_fk_pais">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AE173BD-F1FE-A8DD-1013-8D4D574A94B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

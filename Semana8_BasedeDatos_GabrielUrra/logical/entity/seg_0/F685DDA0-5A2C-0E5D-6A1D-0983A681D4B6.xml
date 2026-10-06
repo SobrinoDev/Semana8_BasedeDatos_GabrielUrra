@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F685DDA0-5A2C-0E5D-6A1D-0983A681D4B6" name="sucursal">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>BF53A447-668E-CC52-FAB0-1E56E6A13E6A</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id sucursal" id="2C95F5A8-E41F-ADB9-FEA8-40796BF34D78">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>61EDF470-23FF-1987-4E76-688CDBE78547</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FA33A2ED-7B04-D13D-4BD9-BA064D5A4C6C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom sucursal" id="FC05DC9B-2C41-122E-E988-395145FEA506">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>14FA001E-46F2-3A28-B5DF-3ECCE190F1DD</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>70AF7DCC-69C0-3D0F-7C65-59A11FD2ED0A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle" id="665544D1-E77C-C870-5D9E-A1754838E5DA">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>07F654E9-28A7-B18B-92CE-D4DCF7B49EE2</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>70AF7DCC-69C0-3D0F-7C65-59A11FD2ED0A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num calle" id="17065C69-4BBE-4BFF-2955-81F661F6B5E9">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>9139F89F-423B-A694-B6AF-33BF962A0410</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9B6AC8D2-33F8-85C9-3F6D-D2B0F0F90ADD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod ciudad" id="0B1FD4F0-3808-34CC-0D4C-8DA136681F66">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>F85981F5-7398-5D66-AC43-FE0337A809A5</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<referedAttribute>41851FD8-DECE-A731-E5ED-05D26BB2B265</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8D7BDDC9-A045-9ACD-249D-4D3C9BC54C0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="592BAC50-7958-616A-3C02-40685FA4169A" name="sucursal pk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>9EEC0EEC-1A6E-2404-9315-4FAFE72B911C</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C95F5A8-E41F-ADB9-FEA8-40796BF34D78</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

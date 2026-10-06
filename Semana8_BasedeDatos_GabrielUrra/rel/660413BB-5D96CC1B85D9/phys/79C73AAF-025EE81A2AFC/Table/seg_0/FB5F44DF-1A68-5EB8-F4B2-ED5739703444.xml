@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="cliente" directorySegmentName="seg_0" id="FB5F44DF-1A68-5EB8-F4B2-ED5739703444">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="pnombre" id="13BA2C44-A3D3-E242-8AE0-B992E7A67DA9">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="28D49D7F-99A8-E501-2332-878B040C9424">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dv" id="3154E008-8979-7721-506C-4543EE3A15A4">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="amaterno" id="AB3B797E-48E3-843C-F098-7AB59999E99B">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="apaterno" id="CAF4270B-32D1-13A2-8BF9-1017509810DB">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="snombre" id="E16F7F91-A108-80C0-DC8F-30CDE67BD7DE">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rut" id="EE190181-60A7-91B9-08C3-5D0C934BD952">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tipo_cli" id="F24DA050-EFBA-A351-7E84-5EA1670E84BC">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="telefono" id="FEB3D176-A7D4-22C5-8476-EC1F73B480A4">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="cliente_pk" id="27EE3C70-02BE-AAED-8E47-1BE9AA4B21D8">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="cliente_un_email" id="65C4CB6E-E0CC-6217-B509-7F197BA55800">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

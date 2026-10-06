@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4A0122D-EAE8-8209-9971-B95731BDFB6C" name="pais">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>6EA5E89E-DA5E-F0B8-CE7D-F334094008CE</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pais" id="0F2EBC1D-9BAB-2636-F358-0E68C250FA9D">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>E89561F6-4B44-3189-D394-05D6B2E3909B</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8D7BDDC9-A045-9ACD-249D-4D3C9BC54C0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom pais" id="D4A4A8EE-2113-C417-E288-2C7BB41EE7D7">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>DB02CDA1-08B3-CB46-C02A-11DDE864AC84</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0FC963D0-8173-0D23-0352-CBD3577EBE02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="884F8B96-FC4F-EB79-9978-4E38DCCA3681" name="pais pk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>0785624A-5533-B754-CC94-F8CD1CFBE953</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F2EBC1D-9BAB-2636-F358-0E68C250FA9D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

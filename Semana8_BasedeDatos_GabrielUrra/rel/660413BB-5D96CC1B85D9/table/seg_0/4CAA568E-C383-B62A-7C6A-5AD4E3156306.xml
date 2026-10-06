@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CAA568E-C383-B62A-7C6A-5AD4E3156306" name="automovil">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>002663F6-A481-2502-14E1-2C4558BC0525</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="patente" id="3F9EABE6-8506-00B4-C7E8-54AAE87F1C16">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>FD8061A1-20FF-9426-8A06-1B83B0EBE87B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FBE3F626-FE61-8810-7644-5394297E62EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio" id="EEFE81A3-9B1E-657C-F845-BA6345FECF18">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>73C57E72-4EB0-0583-FF20-0D3D19BF32FA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9B6AC8D2-33F8-85C9-3F6D-D2B0F0F90ADD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_puertas" id="2F0A0C1D-DEED-C9D9-D4CA-049DAB2F165C">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>8AAC5E19-1B10-30C2-AB36-FA5420C29C92</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7AC8C4C3-F72E-9C78-BA21-A6BD88C3F68B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="km" id="84CE6D28-7B74-F0FB-2B0E-01BECAADF68E">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>636863E5-9D87-12A8-3F0C-9F799E3BF1F9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3AED1B13-1F0B-566D-4126-3349D66650FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="B77D3677-3449-43A2-0520-1D9F29B95C51">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>9FDB3858-8BF2-E7B1-BE3E-84D979E1C317</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0FC963D0-8173-0D23-0352-CBD3577EBE02</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_tipo_auto" id="F192BFC4-CF01-1D12-8C99-707A48F9D917">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>4D6CCA7D-4ED5-7F0B-F448-C4CCE5917F7E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FA33A2ED-7B04-D13D-4BD9-BA064D5A4C6C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B44BD026-E9C6-7E2C-6EBE-F53D74C996C7" referredColumn="46C95FD5-E928-5889-F5BC-59ECF0018393"/>
+</associations>
+</Column>
+<Column name="cod_modelo" id="7F0D791E-C148-7EF2-5BC5-F32A2F39FCA8">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>F6A67243-E9EA-0F19-E38F-6D6E280BD7C5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0BB21405-CD13-842E-B72D-F2C5E3C8C9A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8046A2B-F787-91B8-E9A6-6A9C41E0315C" referredColumn="CBAA04CD-735C-A74F-9429-BC401B6A1B79"/>
+</associations>
+</Column>
+<Column name="cod_marca" id="DBAF6F0C-F0D3-9E1A-4C43-81465AE5F1B5">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>17CE1F14-2EAA-8C99-B925-165C5F79AB50</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3486BE09-49FE-BDFE-5C95-1FFA375B811F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8046A2B-F787-91B8-E9A6-6A9C41E0315C" referredColumn="36EE2E6F-1037-5FF9-3288-A6D5A9D2368A"/>
+</associations>
+</Column>
+<Column name="cl_rut" id="839D5746-8749-1C35-62E2-5A1F22390273">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>1648A163-15C6-BD49-4C56-05320E6FFFFC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>12400C7C-17F7-D384-41E5-DEB9FB203972</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E03904C-4A63-4D8D-DD58-988067637BC6" referredColumn="EE190181-60A7-91B9-08C3-5D0C934BD952"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C836C350-414F-7C5C-AB5B-17C69B92F300" name="automovil_pk">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>295CE8EE-F3C4-9108-5DAC-41AB10FEB6DE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F9EABE6-8506-00B4-C7E8-54AAE87F1C16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7D10CFC-FA52-6EE5-29F9-7B002133A150" name="automovil_fk_cliente">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="839D5746-8749-1C35-62E2-5A1F22390273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="678C4C50-3638-B03C-B957-5B3C3679808E" name="automovil_fk_modelo">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F0D791E-C148-7EF2-5BC5-F32A2F39FCA8"/>
+<colUsage columnID="DBAF6F0C-F0D3-9E1A-4C43-81465AE5F1B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0D8580E-E34C-66EB-555C-85E854CFE900" name="automovil_fk_tipo">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F192BFC4-CF01-1D12-8C99-707A48F9D917"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

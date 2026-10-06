@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EEB80B9-1C55-BDC0-BE76-5DF27A2F597E" name="detalle_servicio">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>6D481FFB-CA29-AFD1-13AA-6AFEF4B07C9D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mantencion_num" id="B1E2A3F3-A2D2-330C-170D-FB22C49621E5">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>DB2CFF55-13B4-6F50-4757-FA22FD9FA79F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9B6AC8D2-33F8-85C9-3F6D-D2B0F0F90ADD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B78649CC-9EB9-57CB-49E2-CC07D5A778C6" referredColumn="1C918985-51D9-F851-1F3A-A0527B541B84"/>
+</associations>
+</Column>
+<Column name="cod_servicio" id="082A5A9F-DA8E-4C21-E308-DB0539B9F985">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>06CC865E-6CB9-D3FB-ED61-4C63BA5DDDF5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8D7BDDC9-A045-9ACD-249D-4D3C9BC54C0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC469ACE-3828-87FE-A5B7-97B569BE9392" referredColumn="798E5013-ADFD-2933-33D4-F47DBBB2A55E"/>
+</associations>
+</Column>
+<Column name="descuento_serv" id="1499EFF7-238D-650D-CF16-0A013F9A8FFC">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>46FD3AD9-B511-974A-0C52-C1D1288578BB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7CFFDA61-345F-2C6E-1BB7-EF51B76C5934</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="7DFF7E2A-DC61-7E30-E876-26302208C6C6">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>E368DA01-FAD4-5FC9-EF70-565648ACC181</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8D7BDDC9-A045-9ACD-249D-4D3C9BC54C0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sucursal_id" id="ECD9842F-CC61-EFA2-5797-760A2A87E12F">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>94CB3970-6623-1987-F441-0120FDF6E1D6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FA33A2ED-7B04-D13D-4BD9-BA064D5A4C6C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B78649CC-9EB9-57CB-49E2-CC07D5A778C6" referredColumn="28F55DE0-5181-BCF8-DBF0-72101D83171B"/>
+</associations>
+</Column>
+<Column name="NOT" id="C075A50A-1C28-4D75-A3AE-112F6F225869">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>99CC9AEE-9273-2924-FACE-DF7B108130A4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="083A48A6-39D6-21D3-A303-C6E3D866E790" name="detalle_servicio_pk">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>612F7229-CE6F-1848-A19A-372741EF8155</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1E2A3F3-A2D2-330C-170D-FB22C49621E5"/>
+<colUsage columnID="ECD9842F-CC61-EFA2-5797-760A2A87E12F"/>
+<colUsage columnID="082A5A9F-DA8E-4C21-E308-DB0539B9F985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3712E09E-0AE9-ECA7-FA7F-4220BA3CF03C" name="det_serv_fk_mantencion">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1E2A3F3-A2D2-330C-170D-FB22C49621E5"/>
+<colUsage columnID="ECD9842F-CC61-EFA2-5797-760A2A87E12F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C7FF6EF-C9A6-9B65-197D-71AF1F91FEAA" name="det_serv_fk_servicio">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="082A5A9F-DA8E-4C21-E308-DB0539B9F985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

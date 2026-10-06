@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65CDB191-F256-4CE6-9A1D-24FA05C7D234" name="cliente">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>FB5F44DF-1A68-5EB8-F4B2-ED5739703444</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="1635FAFF-06EA-ADCA-0E9A-0AB4706F9FDB">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>EE190181-60A7-91B9-08C3-5D0C934BD952</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>12400C7C-17F7-D384-41E5-DEB9FB203972</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv" id="5AC2E2EB-A9BB-520E-2A62-810704E45289">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>3154E008-8979-7721-506C-4543EE3A15A4</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<constraintName>cliente_ck_dv</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>F8C424B0-65E3-4BEE-6F4D-B90CB0ABEEB5</domain>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+<valueDef value="2" description=""/>
+<valueDef value="3" description=""/>
+<valueDef value="4" description=""/>
+<valueDef value="5" description=""/>
+<valueDef value="6" description=""/>
+<valueDef value="7" description=""/>
+<valueDef value="8" description=""/>
+<valueDef value="9" description=""/>
+<valueDef value="K" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pnombre" id="74401EF5-9E8E-5DDC-670C-3164642A75BA">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>13BA2C44-A3D3-E242-8AE0-B992E7A67DA9</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>70AF7DCC-69C0-3D0F-7C65-59A11FD2ED0A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="snombre" id="5BE9D749-C6C6-79A7-8BBA-BC9333718CD9">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>E16F7F91-A108-80C0-DC8F-30CDE67BD7DE</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>70AF7DCC-69C0-3D0F-7C65-59A11FD2ED0A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apaterno" id="E3521410-07C4-0F17-793F-F0F64A7B26C6">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>CAF4270B-32D1-13A2-8BF9-1017509810DB</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>70AF7DCC-69C0-3D0F-7C65-59A11FD2ED0A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amaterno" id="D7C9D8E1-D584-324D-E880-D70317330A5A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>AB3B797E-48E3-843C-F098-7AB59999E99B</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>70AF7DCC-69C0-3D0F-7C65-59A11FD2ED0A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="0D32645C-07D7-4E3D-6571-6D7089E35C3A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>FEB3D176-A7D4-22C5-8476-EC1F73B480A4</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DFFD7F2F-45F9-3B76-59DF-EFFF2C7DA930</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="1E4DCE77-D896-18B7-925F-3DBC6E096737">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>28D49D7F-99A8-E501-2332-878B040C9424</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B630D91E-BB9C-7D22-B865-ED0121A6D8B0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo cli" id="4F2C1752-A45B-BCA9-5421-3F5E392870E8">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>F24DA050-EFBA-A351-7E84-5EA1670E84BC</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>F8C424B0-65E3-4BEE-6F4D-B90CB0ABEEB5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53631668-B32D-35EA-1823-A63CF5E6279D" name="cliente pk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>27EE3C70-02BE-AAED-8E47-1BE9AA4B21D8</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1635FAFF-06EA-ADCA-0E9A-0AB4706F9FDB</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="057F74C8-DA3B-5F21-9F87-E535242BCE4C" name="cliente un email">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>65C4CB6E-E0CC-6217-B509-7F197BA55800</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>1E4DCE77-D896-18B7-925F-3DBC6E096737</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

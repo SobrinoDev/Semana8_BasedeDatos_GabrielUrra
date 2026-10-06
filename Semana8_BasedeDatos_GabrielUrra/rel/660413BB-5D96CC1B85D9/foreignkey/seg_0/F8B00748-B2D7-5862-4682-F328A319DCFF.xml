@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8B00748-B2D7-5862-4682-F328A319DCFF" containerWithKeyObject="B5508599-F961-5EB4-30AD-06B7679D92AB" localFKIndex="43AD0EEC-354B-30BD-B741-0E08DE8355AF" name="mant_fk_sucursal">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>F05447B9-9389-4E37-1142-B398C1047411</importedID>
+<referredTableLongName>sucursal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BF53A447-668E-CC52-FAB0-1E56E6A13E6A</referredTableID>
+<keyObject>9EEC0EEC-1A6E-2404-9315-4FAFE72B911C</keyObject>
+<referredKeyID>9EEC0EEC-1A6E-2404-9315-4FAFE72B911C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sucursal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

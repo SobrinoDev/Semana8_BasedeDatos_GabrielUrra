@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="269BBBD7-6236-1D35-D077-BBB9DF95C5B1" containerWithKeyObject="B5508599-F961-5EB4-30AD-06B7679D92AB" localFKIndex="994BBCA0-24CD-95BA-BFD1-B27F8AF07FD1" name="mant_fk_automovil">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>2389BCC9-E78C-1408-8BCE-48F2E81C62F3</importedID>
+<referredTableLongName>automovil</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4CAA568E-C383-B62A-7C6A-5AD4E3156306</referredTableID>
+<keyObject>C836C350-414F-7C5C-AB5B-17C69B92F300</keyObject>
+<referredKeyID>C836C350-414F-7C5C-AB5B-17C69B92F300</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>patente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

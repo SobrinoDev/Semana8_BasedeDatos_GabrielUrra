@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3B78C66-814A-90A5-F3DF-18278D920CEC" name="detalle servicio">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>6EEB80B9-1C55-BDC0-BE76-5DF27A2F597E</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mantencion num" id="9D97A9E8-651B-320F-C940-553C5DFE9577">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>4B56F52F-229A-4B5E-5D2C-36ACCC8D1DA0</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<referedAttribute>303431C7-4136-ECD2-8D0F-984C839AD61D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9B6AC8D2-33F8-85C9-3F6D-D2B0F0F90ADD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod servicio" id="F69CEC9C-9B50-224B-62F4-AF683FC9D99F">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>F5E48030-D743-1EE5-CA9B-25421571E24E</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<referedAttribute>3342AE5D-DE86-8429-DD84-3824A1FDAAD0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8D7BDDC9-A045-9ACD-249D-4D3C9BC54C0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descuento serv" id="5E0A8927-7E9D-296A-34D6-FA54ADEE0D0A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>1499EFF7-238D-650D-CF16-0A013F9A8FFC</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7CFFDA61-345F-2C6E-1BB7-EF51B76C5934</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="E803891E-C00A-DBA6-2BD1-B7FE6C5C929F">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>7DFF7E2A-DC61-7E30-E876-26302208C6C6</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8D7BDDC9-A045-9ACD-249D-4D3C9BC54C0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sucursal id" id="FD664517-0A11-555C-6003-6B5BD443E587">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>4B56F52F-229A-4B5E-5D2C-36ACCC8D1DA0</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<referedAttribute>FB408D05-2B69-D2D3-9D80-86C21BFF6BED</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FA33A2ED-7B04-D13D-4BD9-BA064D5A4C6C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOT" id="6E07A1A1-BA81-A92F-F9BC-CF8593EC72D7">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>C075A50A-1C28-4D75-A3AE-112F6F225869</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="854CD406-D0BC-F8E5-17D0-6AE6ED207321" name="detalle servicio pk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>083A48A6-39D6-21D3-A303-C6E3D866E790</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D97A9E8-651B-320F-C940-553C5DFE9577</attributeRef>
+<attributeRef>FD664517-0A11-555C-6003-6B5BD443E587</attributeRef>
+<attributeRef>F69CEC9C-9B50-224B-62F4-AF683FC9D99F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

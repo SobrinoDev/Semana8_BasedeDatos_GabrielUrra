@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Semana8_BasedeDatos_GabrielUrra" id="7866EAB4-656B-FE9B-2816-60D7A95EAB46" version="3.5">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:02 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7866EAB4-656B-FE9B-2816-60D7A95EAB46</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="AF96DB01-2249-A0E5-905A-4AFD23123092">
+<designStoragePath>C:\script_mantencion_automotriz</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

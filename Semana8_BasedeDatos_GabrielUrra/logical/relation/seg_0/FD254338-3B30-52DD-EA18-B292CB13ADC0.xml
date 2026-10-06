@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mant_fk_automovil" directorySegmentName="seg_0" id="FD254338-3B30-52DD-EA18-B292CB13ADC0">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>269BBBD7-6236-1D35-D077-BBB9DF95C5B1</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<sourcePk>96F90F32-AF57-59EA-42CE-293E08583254</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A25EFD80-C751-15AC-4520-F064181A7099</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>533804D0-B8B7-FBDB-244E-D0DD56C1E268</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

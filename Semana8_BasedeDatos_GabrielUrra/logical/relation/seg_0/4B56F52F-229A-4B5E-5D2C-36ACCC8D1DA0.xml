@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="det_serv_fk_mantencion" directorySegmentName="seg_0" id="4B56F52F-229A-4B5E-5D2C-36ACCC8D1DA0">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>B78649CC-9EB9-57CB-49E2-CC07D5A778C6</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<sourcePk>3B55EA2E-06B0-4272-FF26-AF224F576FCB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>533804D0-B8B7-FBDB-244E-D0DD56C1E268</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B3B78C66-814A-90A5-F3DF-18278D920CEC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8046A2B-F787-91B8-E9A6-6A9C41E0315C" containerWithKeyObject="4CAA568E-C383-B62A-7C6A-5AD4E3156306" localFKIndex="678C4C50-3638-B03C-B957-5B3C3679808E" name="automovil_fk_modelo">
+<sourceDDLFile>script_mantencion_automotriz.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:56:37 UTC</createdTime>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>9E7076C2-E69C-ADB3-D44B-FB396C9A6B42</importedID>
+<referredTableLongName>modelo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F11EC7B-9002-3154-5E26-FE995BAE1E0D</referredTableID>
+<keyObject>9778B8C7-3BC8-D7EB-BEE6-F658BCEE67E3</keyObject>
+<referredKeyID>9778B8C7-3BC8-D7EB-BEE6-F658BCEE67E3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_modelo,marca_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

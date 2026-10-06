@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mant_fk_mecanico" directorySegmentName="seg_0" id="CE4D4CF9-E502-8D42-B1F9-53D45C90D0EE">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-06 01:57:39 UTC</createdTime>
+<generatorID>ACDB03F8-4EFE-8D2A-E92F-8CE6E813439D</generatorID>
+<ownerDesignName>Semana8_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="660413BB-F189-C39C-B3B9-5D96CC1B85D9" value="true"/>
+</engineerTo>
+<sourcePk>0512062F-8AC8-EFE5-ED49-4538E4BE0CD5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>41781715-17B2-BBAF-843C-D5D2F2A9FD9E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>533804D0-B8B7-FBDB-244E-D0DD56C1E268</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
